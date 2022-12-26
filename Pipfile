@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+asgiref = "==3.5.2"
+"backports.zoneinfo" = "*"
+cffi = "==1.15.1"
+cryptography = "==37.0.4"
+django = "==4.0.6"
+django-cors-headers = "==3.13.0"
+djangorestframework = "==3.13.1"
+psycopg2 = "==2.9.3"
+pycparser = "==2.21"
+pyjwt = "==2.4.0"
+pytz = "==2022.1"
+sqlparse = "==0.4.2"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
